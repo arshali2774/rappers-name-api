@@ -4,7 +4,7 @@ async function apiRequest() {
   const rapperName = document.querySelector("input").value;
   try {
     const response = await fetch(
-      `https://rappers-name.onrender.com/api/${rapperName}`
+      `https://helpful-tuna-poncho.cyclic.app/api/${rapperName}`
     );
     const data = await response.json();
     console.log(data);
